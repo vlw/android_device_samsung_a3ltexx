@@ -35,6 +35,8 @@ TARGET_KERNEL_CONFIG := cyanogen_a5ultexx_defconfig
 # TWRP
 DEVICE_RESOLUTION := 720x1280
 
+TARGET_SYSTEM_PROP += device/samsung/a5ultexx/system.prop
+
 # Vendor Init
 TARGET_UNIFIED_DEVICE := true
 TARGET_INIT_VENDOR_LIB := libinit_msm
