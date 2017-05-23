@@ -27,11 +27,11 @@
 -include vendor/samsung/a3ltexx/BoardConfigVendor.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := a3ltexx,a3ultexx,a33gxx,a33g,a3ulte
+TARGET_OTA_ASSERT_DEVICE := a3ltexx,a3ultexx,a33gxx,a33g
 
 # Kernel
 TARGET_KERNEL_CONFIG := msm8916_sec_defconfig 
-#lineage_a3ltexx_defconfig
+#cyanogen_a3ltexx_defconfig
 TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_a3_eur_defconfig
 TARGET_KERNEL_SELINUX_CONFIG := selinux_defconfig
 #TARGET_NO_RECOVERY := true
