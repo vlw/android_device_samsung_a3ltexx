@@ -20,7 +20,7 @@ $(call inherit-product, device/samsung/a3lte/device.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := a3lte
-PRODUCT_NAME := lineage_a3lte
+PRODUCT_NAME := cm_a3lte
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A300F
 PRODUCT_MANUFACTURER := samsung
